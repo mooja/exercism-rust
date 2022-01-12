@@ -1,0 +1,27 @@
+{
+  "blurb": "Generate musical scales, given a starting note and a set of intervals. ",
+  "authors": [
+    "coriolinus"
+  ],
+  "contributors": [
+    "cwhakes",
+    "efx",
+    "ErikSchierboom",
+    "petertseng",
+    "r4f4",
+    "rofrol",
+    "stringparser",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs"
+    ],
+    "test": [
+      "tests/scale-generator.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  }
+}

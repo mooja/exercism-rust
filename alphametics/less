@@ -1,0 +1,720 @@
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 10 tests
+test test_puzzle_with_eight_letters ... ignored
+test test_must_have_unique_value_for_each_letter ... ok
+test test_puzzle_with_four_letters ... FAILED
+test puzzle_with_two_digits_final_carry ... FAILED
+test test_puzzle_with_ten_letters ... ignored
+test test_puzzle_with_ten_letters_and_199_addends ... ignored
+test test_leading_zero_solution_is_invalid ... ok
+test test_with_three_letters ... FAILED
+test test_puzzle_with_six_letters ... FAILED
+test test_puzzle_with_seven_letters ... FAILED
+
+failures:
+
+---- test_puzzle_with_four_letters stdout ----
+Trying {'S': 4, 'A': 8, 'M': 3}
+Trying {'A': 8, 'M': 7, 'S': 4}
+Trying {'M': 0, 'S': 4, 'A': 8}
+Trying {'M': 1, 'A': 8, 'S': 4}
+Trying {'S': 4, 'A': 8, 'M': 9}
+Trying {'A': 8, 'S': 4, 'M': 6}
+Trying {'A': 8, 'M': 2, 'S': 4}
+Trying {'M': 5, 'S': 4, 'A': 8}
+Trying {'A': 3, 'M': 7, 'S': 4}
+Trying {'S': 4, 'A': 3, 'M': 0}
+Trying {'A': 3, 'S': 4, 'M': 1}
+Trying {'M': 9, 'S': 4, 'A': 3}
+Trying {'S': 4, 'M': 6, 'A': 3}
+Trying {'S': 4, 'A': 3, 'M': 2}
+Trying {'M': 5, 'S': 4, 'A': 3}
+Trying {'M': 0, 'S': 4, 'A': 7}
+Trying {'A': 7, 'M': 1, 'S': 4}
+Trying {'S': 4, 'M': 9, 'A': 7}
+Trying {'S': 4, 'A': 7, 'M': 6}
+Trying {'S': 4, 'M': 2, 'A': 7}
+Trying {'A': 7, 'S': 4, 'M': 5}
+Trying {'M': 1, 'S': 4, 'A': 0}
+Trying {'S': 4, 'A': 0, 'M': 9}
+Trying {'A': 0, 'M': 6, 'S': 4}
+Trying {'M': 2, 'A': 0, 'S': 4}
+Trying {'S': 4, 'A': 0, 'M': 5}
+Trying {'M': 9, 'S': 4, 'A': 1}
+Trying {'A': 1, 'S': 4, 'M': 6}
+Trying {'S': 4, 'A': 1, 'M': 2}
+Trying {'S': 4, 'A': 1, 'M': 5}
+Trying {'S': 4, 'M': 6, 'A': 9}
+Trying {'M': 2, 'A': 9, 'S': 4}
+Trying {'S': 4, 'A': 9, 'M': 5}
+Trying {'A': 6, 'M': 2, 'S': 4}
+Trying {'M': 5, 'S': 4, 'A': 6}
+Trying {'S': 4, 'M': 5, 'A': 2}
+Trying {'A': 3, 'M': 7, 'S': 8}
+Trying {'M': 0, 'A': 3, 'S': 8}
+Trying {'A': 3, 'M': 1, 'S': 8}
+Trying {'S': 8, 'M': 9, 'A': 3}
+Trying {'M': 6, 'S': 8, 'A': 3}
+Trying {'M': 2, 'A': 3, 'S': 8}
+Trying {'M': 5, 'S': 8, 'A': 3}
+Trying {'S': 8, 'A': 7, 'M': 0}
+Trying {'M': 1, 'A': 7, 'S': 8}
+Trying {'M': 9, 'A': 7, 'S': 8}
+Trying {'M': 6, 'S': 8, 'A': 7}
+Trying {'S': 8, 'A': 7, 'M': 2}
+Trying {'S': 8, 'A': 7, 'M': 5}
+Trying {'A': 0, 'M': 1, 'S': 8}
+Trying {'M': 9, 'S': 8, 'A': 0}
+Trying {'A': 0, 'S': 8, 'M': 6}
+Trying {'A': 0, 'M': 2, 'S': 8}
+Trying {'A': 0, 'M': 5, 'S': 8}
+Trying {'A': 1, 'M': 9, 'S': 8}
+Trying {'S': 8, 'A': 1, 'M': 6}
+Trying {'S': 8, 'A': 1, 'M': 2}
+Trying {'S': 8, 'A': 1, 'M': 5}
+Trying {'S': 8, 'M': 6, 'A': 9}
+Trying {'S': 8, 'M': 2, 'A': 9}
+Trying {'S': 8, 'A': 9, 'M': 5}
+Trying {'M': 2, 'A': 6, 'S': 8}
+Trying {'S': 8, 'M': 5, 'A': 6}
+Trying {'M': 5, 'A': 2, 'S': 8}
+Trying {'M': 0, 'S': 3, 'A': 7}
+Trying {'S': 3, 'A': 7, 'M': 1}
+Trying {'S': 3, 'A': 7, 'M': 9}
+Trying {'A': 7, 'S': 3, 'M': 6}
+Trying {'S': 3, 'A': 7, 'M': 2}
+Trying {'M': 5, 'S': 3, 'A': 7}
+Trying {'S': 3, 'M': 1, 'A': 0}
+Trying {'S': 3, 'A': 0, 'M': 9}
+Trying {'A': 0, 'S': 3, 'M': 6}
+Trying {'M': 2, 'S': 3, 'A': 0}
+Trying {'M': 5, 'S': 3, 'A': 0}
+Trying {'A': 1, 'S': 3, 'M': 9}
+Trying {'A': 1, 'S': 3, 'M': 6}
+Trying {'S': 3, 'A': 1, 'M': 2}
+Trying {'M': 5, 'A': 1, 'S': 3}
+Trying {'S': 3, 'A': 9, 'M': 6}
+Trying {'A': 9, 'S': 3, 'M': 2}
+Trying {'M': 5, 'A': 9, 'S': 3}
+Trying {'M': 2, 'S': 3, 'A': 6}
+Trying {'S': 3, 'A': 6, 'M': 5}
+Trying {'S': 3, 'A': 2, 'M': 5}
+Trying {'S': 7, 'A': 0, 'M': 1}
+Trying {'S': 7, 'A': 0, 'M': 9}
+Trying {'A': 0, 'M': 6, 'S': 7}
+Trying {'A': 0, 'M': 2, 'S': 7}
+Trying {'A': 0, 'M': 5, 'S': 7}
+Trying {'S': 7, 'A': 1, 'M': 9}
+Trying {'M': 6, 'S': 7, 'A': 1}
+Trying {'M': 2, 'A': 1, 'S': 7}
+Trying {'S': 7, 'A': 1, 'M': 5}
+Trying {'M': 6, 'S': 7, 'A': 9}
+Trying {'S': 7, 'A': 9, 'M': 2}
+Trying {'S': 7, 'A': 9, 'M': 5}
+Trying {'A': 6, 'M': 2, 'S': 7}
+Trying {'M': 5, 'A': 6, 'S': 7}
+Trying {'A': 2, 'M': 5, 'S': 7}
+Trying {'A': 1, 'M': 9, 'S': 0}
+Trying {'A': 1, 'M': 6, 'S': 0}
+Trying {'S': 0, 'M': 2, 'A': 1}
+Trying {'A': 1, 'M': 5, 'S': 0}
+Trying {'S': 0, 'M': 6, 'A': 9}
+Trying {'S': 0, 'M': 2, 'A': 9}
+Trying {'M': 5, 'S': 0, 'A': 9}
+Trying {'M': 2, 'S': 0, 'A': 6}
+Trying {'S': 0, 'A': 6, 'M': 5}
+Trying {'S': 0, 'M': 5, 'A': 2}
+Trying {'A': 9, 'S': 1, 'M': 6}
+Trying {'A': 9, 'S': 1, 'M': 2}
+Trying {'M': 5, 'S': 1, 'A': 9}
+Trying {'M': 2, 'A': 6, 'S': 1}
+Trying {'S': 1, 'A': 6, 'M': 5}
+Trying {'A': 2, 'S': 1, 'M': 5}
+Trying {'S': 9, 'A': 6, 'M': 2}
+Trying {'A': 6, 'S': 9, 'M': 5}
+Trying {'A': 2, 'M': 5, 'S': 9}
+Trying {'A': 2, 'M': 5, 'S': 6}
+Trying {'O': 0}
+Trying {'O': 2}
+Trying {'O': 8}
+Trying {'O': 5}
+Trying {'O': 6}
+Trying {'O': 1}
+Trying {'O': 9}
+Trying {'O': 7}
+Trying {'O': 0}
+Trying {'O': 8}
+Trying {'O': 2}
+Trying {'O': 6}
+Trying {'O': 3}
+Trying {'O': 9}
+Trying {'O': 7}
+Trying {'O': 0}
+Trying {'O': 3}
+Trying {'O': 4}
+Trying {'O': 6}
+Trying {'O': 2}
+Trying {'O': 5}
+Trying {'O': 0}
+Trying {'O': 6}
+Trying {'O': 1}
+Trying {'O': 8}
+Trying {'O': 9}
+Trying {'O': 4}
+Trying {'O': 7}
+thread 'test_puzzle_with_four_letters' panicked at 'assertion failed: `(left == right)`
+  left: `None`,
+ right: `Some({'M': 1, 'A': 9, 'O': 0, 'S': 2})`', tests/alphametics.rs:6:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- puzzle_with_two_digits_final_carry stdout ----
+Trying {'C': 4, 'B': 6, 'A': 2}
+Trying {'B': 6, 'C': 0, 'A': 2}
+Trying {'C': 5, 'A': 2, 'B': 6}
+Trying {'C': 3, 'B': 6, 'A': 2}
+Trying {'B': 6, 'A': 2, 'C': 1}
+Trying {'A': 2, 'B': 6, 'C': 8}
+Trying {'B': 6, 'C': 9, 'A': 2}
+Trying {'A': 2, 'C': 7, 'B': 6}
+Trying {'C': 0, 'B': 4, 'A': 2}
+Trying {'A': 2, 'C': 5, 'B': 4}
+Trying {'C': 3, 'B': 4, 'A': 2}
+Trying {'A': 2, 'C': 1, 'B': 4}
+Trying {'B': 4, 'C': 8, 'A': 2}
+Trying {'C': 9, 'A': 2, 'B': 4}
+Trying {'B': 4, 'C': 7, 'A': 2}
+Trying {'B': 0, 'C': 5, 'A': 2}
+Trying {'C': 3, 'A': 2, 'B': 0}
+Trying {'C': 1, 'A': 2, 'B': 0}
+Trying {'A': 2, 'B': 0, 'C': 8}
+Trying {'A': 2, 'C': 9, 'B': 0}
+Trying {'A': 2, 'B': 0, 'C': 7}
+Trying {'A': 2, 'B': 5, 'C': 3}
+Trying {'C': 1, 'A': 2, 'B': 5}
+Trying {'A': 2, 'B': 5, 'C': 8}
+Trying {'C': 9, 'B': 5, 'A': 2}
+Trying {'A': 2, 'B': 5, 'C': 7}
+Trying {'C': 1, 'A': 2, 'B': 3}
+Trying {'A': 2, 'C': 8, 'B': 3}
+Trying {'C': 9, 'B': 3, 'A': 2}
+Trying {'C': 7, 'A': 2, 'B': 3}
+Trying {'C': 8, 'A': 2, 'B': 1}
+Trying {'C': 9, 'A': 2, 'B': 1}
+Trying {'C': 7, 'A': 2, 'B': 1}
+Trying {'A': 2, 'B': 8, 'C': 9}
+Trying {'C': 7, 'A': 2, 'B': 8}
+Trying {'B': 9, 'C': 7, 'A': 2}
+Trying {'C': 0, 'B': 4, 'A': 6}
+Trying {'B': 4, 'C': 5, 'A': 6}
+Trying {'A': 6, 'B': 4, 'C': 3}
+Trying {'A': 6, 'B': 4, 'C': 1}
+Trying {'C': 8, 'B': 4, 'A': 6}
+Trying {'A': 6, 'B': 4, 'C': 9}
+Trying {'C': 7, 'B': 4, 'A': 6}
+Trying {'B': 0, 'C': 5, 'A': 6}
+Trying {'C': 3, 'B': 0, 'A': 6}
+Trying {'A': 6, 'B': 0, 'C': 1}
+Trying {'B': 0, 'A': 6, 'C': 8}
+Trying {'C': 9, 'B': 0, 'A': 6}
+Trying {'B': 0, 'A': 6, 'C': 7}
+Trying {'A': 6, 'C': 3, 'B': 5}
+Trying {'C': 1, 'A': 6, 'B': 5}
+Trying {'B': 5, 'C': 8, 'A': 6}
+Trying {'C': 9, 'B': 5, 'A': 6}
+Trying {'A': 6, 'C': 7, 'B': 5}
+Trying {'A': 6, 'B': 3, 'C': 1}
+Trying {'A': 6, 'B': 3, 'C': 8}
+Trying {'C': 9, 'B': 3, 'A': 6}
+Trying {'C': 7, 'A': 6, 'B': 3}
+Trying {'C': 8, 'A': 6, 'B': 1}
+Trying {'B': 1, 'C': 9, 'A': 6}
+Trying {'B': 1, 'C': 7, 'A': 6}
+Trying {'B': 8, 'A': 6, 'C': 9}
+Trying {'B': 8, 'C': 7, 'A': 6}
+Trying {'C': 7, 'B': 9, 'A': 6}
+Trying {'A': 4, 'B': 0, 'C': 5}
+Trying {'B': 0, 'A': 4, 'C': 3}
+Trying {'C': 1, 'A': 4, 'B': 0}
+Trying {'C': 8, 'B': 0, 'A': 4}
+Trying {'A': 4, 'C': 9, 'B': 0}
+Trying {'A': 4, 'B': 0, 'C': 7}
+Trying {'C': 3, 'A': 4, 'B': 5}
+Trying {'C': 1, 'B': 5, 'A': 4}
+Trying {'C': 8, 'B': 5, 'A': 4}
+Trying {'A': 4, 'B': 5, 'C': 9}
+Trying {'C': 7, 'B': 5, 'A': 4}
+Trying {'B': 3, 'C': 1, 'A': 4}
+Trying {'C': 8, 'A': 4, 'B': 3}
+Trying {'C': 9, 'A': 4, 'B': 3}
+Trying {'B': 3, 'C': 7, 'A': 4}
+Trying {'C': 8, 'A': 4, 'B': 1}
+Trying {'B': 1, 'C': 9, 'A': 4}
+Trying {'B': 1, 'C': 7, 'A': 4}
+Trying {'A': 4, 'C': 9, 'B': 8}
+Trying {'A': 4, 'C': 7, 'B': 8}
+Trying {'A': 4, 'C': 7, 'B': 9}
+Trying {'A': 0, 'C': 3, 'B': 5}
+Trying {'C': 1, 'A': 0, 'B': 5}
+Trying {'B': 5, 'A': 0, 'C': 8}
+Trying {'B': 5, 'C': 9, 'A': 0}
+Trying {'C': 7, 'B': 5, 'A': 0}
+Trying {'A': 0, 'C': 1, 'B': 3}
+Trying {'A': 0, 'C': 8, 'B': 3}
+Trying {'A': 0, 'B': 3, 'C': 9}
+Trying {'A': 0, 'C': 7, 'B': 3}
+Trying {'A': 0, 'B': 1, 'C': 8}
+Trying {'B': 1, 'A': 0, 'C': 9}
+Trying {'A': 0, 'C': 7, 'B': 1}
+Trying {'C': 9, 'B': 8, 'A': 0}
+Trying {'C': 7, 'A': 0, 'B': 8}
+Trying {'B': 9, 'A': 0, 'C': 7}
+Trying {'C': 1, 'A': 5, 'B': 3}
+Trying {'A': 5, 'C': 8, 'B': 3}
+Trying {'B': 3, 'A': 5, 'C': 9}
+Trying {'B': 3, 'A': 5, 'C': 7}
+Trying {'A': 5, 'C': 8, 'B': 1}
+Trying {'C': 9, 'B': 1, 'A': 5}
+Trying {'A': 5, 'C': 7, 'B': 1}
+Trying {'C': 9, 'A': 5, 'B': 8}
+Trying {'C': 7, 'B': 8, 'A': 5}
+Trying {'C': 7, 'A': 5, 'B': 9}
+Trying {'B': 1, 'C': 8, 'A': 3}
+Trying {'B': 1, 'C': 9, 'A': 3}
+Trying {'C': 7, 'A': 3, 'B': 1}
+Trying {'B': 8, 'A': 3, 'C': 9}
+Trying {'B': 8, 'C': 7, 'A': 3}
+Trying {'B': 9, 'A': 3, 'C': 7}
+Trying {'B': 8, 'C': 9, 'A': 1}
+Trying {'B': 8, 'A': 1, 'C': 7}
+Trying {'A': 1, 'B': 9, 'C': 7}
+Trying {'B': 9, 'C': 7, 'A': 8}
+thread 'puzzle_with_two_digits_final_carry' panicked at 'assertion failed: `(left == right)`
+  left: `None`,
+ right: `Some({'B': 1, 'A': 9, 'C': 0})`', tests/alphametics.rs:6:5
+
+---- test_with_three_letters stdout ----
+Trying {'I': 8, 'L': 1, 'B': 2}
+Trying {'B': 3, 'L': 1, 'I': 8}
+Trying {'B': 5, 'L': 1, 'I': 8}
+Trying {'L': 1, 'I': 8, 'B': 6}
+Trying {'B': 9, 'L': 1, 'I': 8}
+Trying {'L': 1, 'I': 8, 'B': 7}
+Trying {'L': 1, 'B': 0, 'I': 8}
+Trying {'L': 1, 'I': 8, 'B': 4}
+Trying {'L': 1, 'B': 3, 'I': 2}
+Trying {'I': 2, 'L': 1, 'B': 5}
+Trying {'B': 6, 'I': 2, 'L': 1}
+Trying {'L': 1, 'I': 2, 'B': 9}
+Trying {'L': 1, 'B': 7, 'I': 2}
+Trying {'L': 1, 'B': 0, 'I': 2}
+Trying {'I': 2, 'L': 1, 'B': 4}
+Trying {'I': 3, 'B': 5, 'L': 1}
+Trying {'L': 1, 'I': 3, 'B': 6}
+Trying {'B': 9, 'L': 1, 'I': 3}
+Trying {'B': 7, 'L': 1, 'I': 3}
+Trying {'I': 3, 'B': 0, 'L': 1}
+Trying {'I': 3, 'B': 4, 'L': 1}
+Trying {'B': 6, 'L': 1, 'I': 5}
+Trying {'I': 5, 'L': 1, 'B': 9}
+Trying {'L': 1, 'I': 5, 'B': 7}
+Trying {'L': 1, 'I': 5, 'B': 0}
+Trying {'I': 5, 'L': 1, 'B': 4}
+Trying {'B': 9, 'L': 1, 'I': 6}
+Trying {'L': 1, 'B': 7, 'I': 6}
+Trying {'L': 1, 'I': 6, 'B': 0}
+Trying {'I': 6, 'L': 1, 'B': 4}
+Trying {'L': 1, 'B': 7, 'I': 9}
+Trying {'I': 9, 'L': 1, 'B': 0}
+Trying {'L': 1, 'I': 9, 'B': 4}
+Trying {'I': 7, 'L': 1, 'B': 0}
+Trying {'L': 1, 'I': 7, 'B': 4}
+Trying {'L': 1, 'B': 4, 'I': 0}
+Trying {'L': 8, 'I': 2, 'B': 3}
+Trying {'I': 2, 'L': 8, 'B': 5}
+Trying {'L': 8, 'I': 2, 'B': 6}
+Trying {'I': 2, 'L': 8, 'B': 9}
+Trying {'B': 7, 'L': 8, 'I': 2}
+Trying {'I': 2, 'L': 8, 'B': 0}
+Trying {'B': 4, 'I': 2, 'L': 8}
+Trying {'B': 5, 'I': 3, 'L': 8}
+Trying {'I': 3, 'L': 8, 'B': 6}
+Trying {'L': 8, 'B': 9, 'I': 3}
+Trying {'B': 7, 'L': 8, 'I': 3}
+Trying {'B': 0, 'L': 8, 'I': 3}
+Trying {'B': 4, 'L': 8, 'I': 3}
+Trying {'L': 8, 'B': 6, 'I': 5}
+Trying {'L': 8, 'I': 5, 'B': 9}
+Trying {'L': 8, 'I': 5, 'B': 7}
+Trying {'L': 8, 'I': 5, 'B': 0}
+Trying {'I': 5, 'B': 4, 'L': 8}
+Trying {'L': 8, 'B': 9, 'I': 6}
+Trying {'I': 6, 'B': 7, 'L': 8}
+Trying {'I': 6, 'B': 0, 'L': 8}
+Trying {'I': 6, 'B': 4, 'L': 8}
+Trying {'I': 9, 'B': 7, 'L': 8}
+Trying {'B': 0, 'L': 8, 'I': 9}
+Trying {'B': 4, 'I': 9, 'L': 8}
+Trying {'L': 8, 'B': 0, 'I': 7}
+Trying {'B': 4, 'I': 7, 'L': 8}
+Trying {'B': 4, 'L': 8, 'I': 0}
+Trying {'L': 2, 'I': 3, 'B': 5}
+Trying {'L': 2, 'I': 3, 'B': 6}
+Trying {'L': 2, 'B': 9, 'I': 3}
+Trying {'I': 3, 'L': 2, 'B': 7}
+Trying {'B': 0, 'L': 2, 'I': 3}
+Trying {'B': 4, 'I': 3, 'L': 2}
+Trying {'B': 6, 'I': 5, 'L': 2}
+Trying {'I': 5, 'B': 9, 'L': 2}
+Trying {'B': 7, 'L': 2, 'I': 5}
+Trying {'L': 2, 'I': 5, 'B': 0}
+Trying {'I': 5, 'L': 2, 'B': 4}
+Trying {'B': 9, 'I': 6, 'L': 2}
+Trying {'L': 2, 'B': 7, 'I': 6}
+Trying {'B': 0, 'I': 6, 'L': 2}
+Trying {'I': 6, 'B': 4, 'L': 2}
+Trying {'B': 7, 'L': 2, 'I': 9}
+Trying {'I': 9, 'L': 2, 'B': 0}
+Trying {'L': 2, 'B': 4, 'I': 9}
+Trying {'B': 0, 'L': 2, 'I': 7}
+Trying {'I': 7, 'B': 4, 'L': 2}
+Trying {'L': 2, 'I': 0, 'B': 4}
+Trying {'L': 3, 'B': 6, 'I': 5}
+Trying {'I': 5, 'B': 9, 'L': 3}
+Trying {'I': 5, 'L': 3, 'B': 7}
+Trying {'B': 0, 'L': 3, 'I': 5}
+Trying {'L': 3, 'I': 5, 'B': 4}
+Trying {'L': 3, 'B': 9, 'I': 6}
+Trying {'L': 3, 'B': 7, 'I': 6}
+Trying {'I': 6, 'B': 0, 'L': 3}
+Trying {'L': 3, 'B': 4, 'I': 6}
+Trying {'B': 7, 'L': 3, 'I': 9}
+Trying {'I': 9, 'L': 3, 'B': 0}
+Trying {'B': 4, 'I': 9, 'L': 3}
+Trying {'I': 7, 'B': 0, 'L': 3}
+Trying {'L': 3, 'B': 4, 'I': 7}
+Trying {'L': 3, 'I': 0, 'B': 4}
+Trying {'L': 5, 'B': 9, 'I': 6}
+Trying {'L': 5, 'I': 6, 'B': 7}
+Trying {'I': 6, 'B': 0, 'L': 5}
+Trying {'B': 4, 'I': 6, 'L': 5}
+Trying {'I': 9, 'B': 7, 'L': 5}
+Trying {'L': 5, 'I': 9, 'B': 0}
+Trying {'I': 9, 'B': 4, 'L': 5}
+Trying {'I': 7, 'B': 0, 'L': 5}
+Trying {'L': 5, 'I': 7, 'B': 4}
+Trying {'L': 5, 'I': 0, 'B': 4}
+Trying {'L': 6, 'B': 7, 'I': 9}
+Trying {'L': 6, 'B': 0, 'I': 9}
+Trying {'L': 6, 'I': 9, 'B': 4}
+Trying {'I': 7, 'L': 6, 'B': 0}
+Trying {'I': 7, 'B': 4, 'L': 6}
+Trying {'I': 0, 'B': 4, 'L': 6}
+Trying {'I': 7, 'L': 9, 'B': 0}
+Trying {'B': 4, 'L': 9, 'I': 7}
+Trying {'B': 4, 'L': 9, 'I': 0}
+Trying {'I': 0, 'B': 4, 'L': 7}
+Trying {}
+Trying {}
+thread 'test_with_three_letters' panicked at 'assertion failed: `(left == right)`
+  left: `None`,
+ right: `Some({'I': 1, 'B': 9, 'L': 0})`', tests/alphametics.rs:6:5
+
+---- test_puzzle_with_six_letters stdout ----
+Trying {'E': 7, 'O': 9}
+Trying {'E': 7, 'O': 6}
+Trying {'E': 7, 'O': 0}
+Trying {'E': 7, 'O': 4}
+Trying {'E': 7, 'O': 3}
+Trying {'E': 7, 'O': 8}
+Trying {'E': 7, 'O': 2}
+Trying {'E': 7, 'O': 1}
+Trying {'O': 5, 'E': 7}
+Trying {'E': 9, 'O': 6}
+Trying {'E': 9, 'O': 0}
+Trying {'O': 4, 'E': 9}
+Trying {'E': 9, 'O': 3}
+Trying {'E': 9, 'O': 8}
+Trying {'O': 2, 'E': 9}
+Trying {'O': 1, 'E': 9}
+Trying {'O': 5, 'E': 9}
+Trying {'E': 6, 'O': 0}
+Trying {'O': 4, 'E': 6}
+Trying {'O': 3, 'E': 6}
+Trying {'E': 6, 'O': 8}
+Trying {'O': 2, 'E': 6}
+Trying {'E': 6, 'O': 1}
+Trying {'E': 6, 'O': 5}
+Trying {'O': 4, 'E': 0}
+Trying {'E': 0, 'O': 3}
+Trying {'O': 8, 'E': 0}
+Trying {'E': 0, 'O': 2}
+Trying {'E': 0, 'O': 1}
+Trying {'E': 0, 'O': 5}
+Trying {'O': 3, 'E': 4}
+Trying {'E': 4, 'O': 8}
+Trying {'O': 2, 'E': 4}
+Trying {'O': 1, 'E': 4}
+Trying {'O': 5, 'E': 4}
+Trying {'E': 3, 'O': 8}
+Trying {'E': 3, 'O': 2}
+Trying {'O': 1, 'E': 3}
+Trying {'O': 5, 'E': 3}
+Trying {'O': 2, 'E': 8}
+Trying {'O': 1, 'E': 8}
+Trying {'E': 8, 'O': 5}
+Trying {'O': 1, 'E': 2}
+Trying {'E': 2, 'O': 5}
+Trying {'O': 5, 'E': 1}
+Trying {'N': 2, 'T': 0}
+Trying {'N': 4, 'T': 0}
+Trying {'T': 0, 'N': 1}
+Trying {'N': 8, 'T': 0}
+Trying {'N': 6, 'T': 0}
+Trying {'T': 0, 'N': 5}
+Trying {'T': 0, 'N': 7}
+Trying {'T': 2, 'N': 4}
+Trying {'T': 2, 'N': 1}
+Trying {'T': 2, 'N': 8}
+Trying {'T': 2, 'N': 6}
+Trying {'N': 5, 'T': 2}
+Trying {'T': 2, 'N': 7}
+Trying {'T': 4, 'N': 1}
+Trying {'N': 8, 'T': 4}
+Trying {'T': 4, 'N': 6}
+Trying {'T': 4, 'N': 5}
+Trying {'T': 4, 'N': 7}
+Trying {'N': 8, 'T': 1}
+Trying {'N': 6, 'T': 1}
+Trying {'N': 5, 'T': 1}
+Trying {'T': 1, 'N': 7}
+Trying {'N': 6, 'T': 8}
+Trying {'T': 8, 'N': 5}
+Trying {'N': 7, 'T': 8}
+Trying {'N': 5, 'T': 6}
+Trying {'T': 6, 'N': 7}
+Trying {'T': 5, 'N': 7}
+Trying {'T': 5, 'N': 8}
+Trying {'T': 5, 'N': 0}
+Trying {'T': 5, 'N': 1}
+Trying {'N': 7, 'T': 5}
+Trying {'T': 5, 'N': 3}
+Trying {'T': 5, 'N': 9}
+Trying {'N': 4, 'T': 5}
+Trying {'N': 0, 'T': 8}
+Trying {'N': 1, 'T': 8}
+Trying {'T': 8, 'N': 7}
+Trying {'T': 8, 'N': 3}
+Trying {'N': 9, 'T': 8}
+Trying {'N': 4, 'T': 8}
+Trying {'T': 0, 'N': 1}
+Trying {'N': 7, 'T': 0}
+Trying {'N': 3, 'T': 0}
+Trying {'N': 9, 'T': 0}
+Trying {'T': 0, 'N': 4}
+Trying {'T': 1, 'N': 7}
+Trying {'N': 3, 'T': 1}
+Trying {'T': 1, 'N': 9}
+Trying {'N': 4, 'T': 1}
+Trying {'N': 3, 'T': 7}
+Trying {'T': 7, 'N': 9}
+Trying {'N': 4, 'T': 7}
+Trying {'T': 3, 'N': 9}
+Trying {'N': 4, 'T': 3}
+Trying {'T': 9, 'N': 4}
+Trying {'N': 5, 'T': 6}
+Trying {'N': 8, 'T': 6}
+Trying {'N': 9, 'T': 6}
+Trying {'T': 6, 'N': 7}
+Trying {'T': 6, 'N': 0}
+Trying {'T': 6, 'N': 4}
+Trying {'N': 2, 'T': 6}
+Trying {'N': 8, 'T': 5}
+Trying {'N': 9, 'T': 5}
+Trying {'T': 5, 'N': 7}
+Trying {'N': 0, 'T': 5}
+Trying {'N': 4, 'T': 5}
+Trying {'N': 2, 'T': 5}
+Trying {'T': 8, 'N': 9}
+Trying {'N': 7, 'T': 8}
+Trying {'T': 8, 'N': 0}
+Trying {'T': 8, 'N': 4}
+Trying {'T': 8, 'N': 2}
+Trying {'T': 9, 'N': 7}
+Trying {'T': 9, 'N': 0}
+Trying {'T': 9, 'N': 4}
+Trying {'N': 2, 'T': 9}
+Trying {'T': 7, 'N': 0}
+Trying {'T': 7, 'N': 4}
+Trying {'T': 7, 'N': 2}
+Trying {'T': 0, 'N': 4}
+Trying {'T': 0, 'N': 2}
+Trying {'N': 2, 'T': 4}
+Trying {'A': 9}
+Trying {'A': 1}
+Trying {'A': 4}
+Trying {'A': 5}
+Trying {'A': 0}
+Trying {'A': 7}
+Trying {'A': 7}
+Trying {'A': 8}
+Trying {'A': 9}
+Trying {'A': 4}
+Trying {'A': 6}
+Trying {'A': 0}
+Trying {'A': 0}
+Trying {'A': 2}
+Trying {'A': 7}
+Trying {'A': 8}
+Trying {'A': 6}
+Trying {'A': 5}
+thread 'test_puzzle_with_six_letters' panicked at 'assertion failed: `(left == right)`
+  left: `None`,
+ right: `Some({'N': 7, 'O': 4, 'T': 9, 'A': 0, 'L': 1, 'E': 2})`', tests/alphametics.rs:6:5
+
+---- test_puzzle_with_seven_letters stdout ----
+Trying {'E': 3, 'T': 5, 'S': 1}
+Trying {'S': 1, 'E': 0, 'T': 5}
+Trying {'S': 1, 'E': 9, 'T': 5}
+Trying {'T': 5, 'S': 1, 'E': 6}
+Trying {'S': 1, 'E': 4, 'T': 5}
+Trying {'S': 1, 'E': 8, 'T': 5}
+Trying {'S': 1, 'E': 7, 'T': 5}
+Trying {'E': 2, 'T': 5, 'S': 1}
+Trying {'T': 5, 'E': 0, 'S': 3}
+Trying {'S': 3, 'T': 5, 'E': 9}
+Trying {'T': 5, 'E': 6, 'S': 3}
+Trying {'S': 3, 'E': 4, 'T': 5}
+Trying {'S': 3, 'E': 8, 'T': 5}
+Trying {'S': 3, 'E': 7, 'T': 5}
+Trying {'T': 5, 'S': 3, 'E': 2}
+Trying {'S': 0, 'E': 9, 'T': 5}
+Trying {'S': 0, 'E': 6, 'T': 5}
+Trying {'S': 0, 'E': 4, 'T': 5}
+Trying {'E': 8, 'S': 0, 'T': 5}
+Trying {'S': 0, 'T': 5, 'E': 7}
+Trying {'S': 0, 'T': 5, 'E': 2}
+Trying {'T': 5, 'E': 6, 'S': 9}
+Trying {'S': 9, 'E': 4, 'T': 5}
+Trying {'S': 9, 'E': 8, 'T': 5}
+Trying {'E': 7, 'T': 5, 'S': 9}
+Trying {'E': 2, 'T': 5, 'S': 9}
+Trying {'T': 5, 'S': 6, 'E': 4}
+Trying {'E': 8, 'S': 6, 'T': 5}
+Trying {'S': 6, 'E': 7, 'T': 5}
+Trying {'S': 6, 'T': 5, 'E': 2}
+Trying {'T': 5, 'S': 4, 'E': 8}
+Trying {'S': 4, 'E': 7, 'T': 5}
+Trying {'T': 5, 'S': 4, 'E': 2}
+Trying {'T': 5, 'E': 7, 'S': 8}
+Trying {'S': 8, 'T': 5, 'E': 2}
+Trying {'E': 2, 'T': 5, 'S': 7}
+Trying {'E': 0, 'S': 3, 'T': 1}
+Trying {'S': 3, 'T': 1, 'E': 9}
+Trying {'S': 3, 'E': 6, 'T': 1}
+Trying {'S': 3, 'T': 1, 'E': 4}
+Trying {'T': 1, 'S': 3, 'E': 8}
+Trying {'T': 1, 'E': 7, 'S': 3}
+Trying {'E': 2, 'S': 3, 'T': 1}
+Trying {'T': 1, 'S': 0, 'E': 9}
+Trying {'T': 1, 'S': 0, 'E': 6}
+Trying {'T': 1, 'E': 4, 'S': 0}
+Trying {'T': 1, 'S': 0, 'E': 8}
+Trying {'S': 0, 'T': 1, 'E': 7}
+Trying {'T': 1, 'S': 0, 'E': 2}
+Trying {'E': 6, 'S': 9, 'T': 1}
+Trying {'E': 4, 'S': 9, 'T': 1}
+Trying {'T': 1, 'S': 9, 'E': 8}
+Trying {'E': 7, 'S': 9, 'T': 1}
+Trying {'S': 9, 'E': 2, 'T': 1}
+Trying {'T': 1, 'S': 6, 'E': 4}
+Trying {'E': 8, 'T': 1, 'S': 6}
+Trying {'S': 6, 'T': 1, 'E': 7}
+Trying {'S': 6, 'E': 2, 'T': 1}
+Trying {'S': 4, 'E': 8, 'T': 1}
+Trying {'E': 7, 'T': 1, 'S': 4}
+Trying {'S': 4, 'T': 1, 'E': 2}
+Trying {'T': 1, 'E': 7, 'S': 8}
+Trying {'S': 8, 'E': 2, 'T': 1}
+Trying {'E': 2, 'S': 7, 'T': 1}
+Trying {'T': 3, 'E': 9, 'S': 0}
+Trying {'S': 0, 'T': 3, 'E': 6}
+Trying {'E': 4, 'S': 0, 'T': 3}
+Trying {'E': 8, 'S': 0, 'T': 3}
+Trying {'S': 0, 'T': 3, 'E': 7}
+Trying {'E': 2, 'S': 0, 'T': 3}
+Trying {'E': 6, 'S': 9, 'T': 3}
+Trying {'E': 4, 'T': 3, 'S': 9}
+Trying {'T': 3, 'S': 9, 'E': 8}
+Trying {'S': 9, 'T': 3, 'E': 7}
+Trying {'S': 9, 'E': 2, 'T': 3}
+Trying {'T': 3, 'E': 4, 'S': 6}
+Trying {'T': 3, 'S': 6, 'E': 8}
+Trying {'S': 6, 'E': 7, 'T': 3}
+Trying {'T': 3, 'E': 2, 'S': 6}
+Trying {'E': 8, 'S': 4, 'T': 3}
+Trying {'T': 3, 'S': 4, 'E': 7}
+Trying {'T': 3, 'S': 4, 'E': 2}
+Trying {'S': 8, 'E': 7, 'T': 3}
+Trying {'T': 3, 'E': 2, 'S': 8}
+Trying {'S': 7, 'E': 2, 'T': 3}
+Trying {'S': 9, 'T': 0, 'E': 6}
+Trying {'S': 9, 'T': 0, 'E': 4}
+Trying {'S': 9, 'T': 0, 'E': 8}
+Trying {'S': 9, 'T': 0, 'E': 7}
+Trying {'S': 9, 'E': 2, 'T': 0}
+Trying {'E': 4, 'T': 0, 'S': 6}
+Trying {'S': 6, 'E': 8, 'T': 0}
+Trying {'E': 7, 'T': 0, 'S': 6}
+Trying {'S': 6, 'E': 2, 'T': 0}
+Trying {'T': 0, 'S': 4, 'E': 8}
+Trying {'E': 7, 'S': 4, 'T': 0}
+Trying {'S': 4, 'E': 2, 'T': 0}
+Trying {'T': 0, 'S': 8, 'E': 7}
+Trying {'T': 0, 'S': 8, 'E': 2}
+Trying {'T': 0, 'S': 7, 'E': 2}
+Trying {'T': 9, 'S': 6, 'E': 4}
+Trying {'T': 9, 'S': 6, 'E': 8}
+Trying {'E': 7, 'T': 9, 'S': 6}
+Trying {'S': 6, 'E': 2, 'T': 9}
+Trying {'T': 9, 'S': 4, 'E': 8}
+Trying {'T': 9, 'E': 7, 'S': 4}
+Trying {'S': 4, 'T': 9, 'E': 2}
+Trying {'S': 8, 'E': 7, 'T': 9}
+Trying {'T': 9, 'E': 2, 'S': 8}
+Trying {'S': 7, 'E': 2, 'T': 9}
+Trying {'T': 6, 'S': 4, 'E': 8}
+Trying {'S': 4, 'E': 7, 'T': 6}
+Trying {'E': 2, 'T': 6, 'S': 4}
+Trying {'T': 6, 'S': 8, 'E': 7}
+Trying {'T': 6, 'S': 8, 'E': 2}
+Trying {'S': 7, 'E': 2, 'T': 6}
+Trying {'S': 8, 'E': 7, 'T': 4}
+Trying {'T': 4, 'S': 8, 'E': 2}
+Trying {'S': 7, 'T': 4, 'E': 2}
+Trying {'E': 2, 'T': 8, 'S': 7}
+Trying {'H': 6}
+Trying {'H': 0}
+Trying {'H': 3}
+Trying {'H': 4}
+Trying {'H': 7}
+Trying {'H': 8}
+Trying {'H': 9}
+thread 'test_puzzle_with_seven_letters' panicked at 'assertion failed: `(left == right)`
+  left: `None`,
+ right: `Some({'T': 7, 'G': 2, 'I': 0, 'S': 9, 'E': 4, 'H': 5, 'L': 1})`', tests/alphametics.rs:6:5
+
+
+failures:
+    puzzle_with_two_digits_final_carry
+    test_puzzle_with_four_letters
+    test_puzzle_with_seven_letters
+    test_puzzle_with_six_letters
+    test_with_three_letters
+
+test result: FAILED. 2 passed; 5 failed; 3 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
